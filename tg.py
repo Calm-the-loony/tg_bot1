@@ -16,7 +16,6 @@ POST_SHIPPING_OPTION = ShippingOption(
 )
 
 POST_SHIPPING_OPTION.add(LabeledPrice('Кортонная коробка', 1000))
-POST_SHIPPING_OPTION.add(LabeledPrice('Срочное отправление!', 1000))
 
 PICKUP_SHIPPING_OPTION = ShippingOption(
     id='pickup',
